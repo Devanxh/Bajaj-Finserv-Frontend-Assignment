@@ -31,7 +31,6 @@ const EmployeeList = ({ employees }) => {
         >
           <option value="">All Designations</option>
           <option value="Senior Developer">Senior Developer</option>
-          <option value="Developer">Developer</option>
           <option value="Project Manager">Project Manager</option>
           <option value="QA Engineer">QA Engineer</option>
       

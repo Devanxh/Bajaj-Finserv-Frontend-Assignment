@@ -14,8 +14,12 @@
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f8f8f8;
+    border-radius: 1rem;
+    background-color: #e8caf8;
+  }
+
+  .employee-card h2{
+    text-align: center;
   }
   
   .employee-card h3 {

@@ -8,9 +8,9 @@ const EmployeeCard = ({ employee }) => {
   return (
     <div className="employee-card">
       <h2>{name}</h2>
-      <p>Designation: {designation}</p>
+      <p >Designation: {designation}</p>
       <p>Skills: {skills.join(", ")}</p>
-
+      <hr></hr>
       <h3>Projects</h3>
       {projects &&
         projects.map((project) => (

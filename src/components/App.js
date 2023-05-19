@@ -6,7 +6,7 @@ const App = () => {
   const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
-    // Fetch data from API endpoint
+ 
     fetch(
       "https://raw.githubusercontent.com/dixitsoham7/dixitsoham7.github.io/main/index.json"
     )

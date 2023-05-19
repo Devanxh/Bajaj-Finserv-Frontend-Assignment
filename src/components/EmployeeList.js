@@ -34,7 +34,7 @@ const EmployeeList = ({ employees }) => {
           <option value="Developer">Developer</option>
           <option value="Project Manager">Project Manager</option>
           <option value="QA Engineer">QA Engineer</option>
-          {/* Add more designation options as needed */}
+      
         </select>
       </div>
       <div className="employee-list">

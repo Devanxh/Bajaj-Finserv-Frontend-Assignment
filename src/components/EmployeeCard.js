@@ -3,11 +3,14 @@ import ProjectTable from "./ProjectTable";
 import "./styles.css";
 
 const EmployeeCard = ({ employee }) => {
-  const { name, designation, skills, projects } = employee;
+  let { name, designation, skills, projects } = employee;
 
   return (
-    <div className="employee-card">
-      <h2>{name}</h2>
+    <div className="employee-card"> 
+      {
+        name == null ? name = <h1>*Name Missing*</h1>: name = <h1>{name}</h1>
+      }
+      {/* <h2>{name}</h2> */}
       <p >Designation: {designation}</p>
       <p>Skills: {skills.join(", ")}</p>
       <hr></hr>

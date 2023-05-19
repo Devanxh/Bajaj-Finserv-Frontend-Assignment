@@ -1,0 +1,88 @@
+
+.app h1{
+  text-align: center;
+}
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .employee-card {
+    /* display: flex; */
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .employee-card h3 {
+    margin-top: 0;
+  }
+  
+  .employee-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .employee-card li {
+    margin-bottom: 5px;
+  }
+  
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .project-table th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+  
+  .project-table tfoot td {
+    font-weight: bold;
+  }
+  
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #aaa;
+  }
+  
+  .search-bar select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+  .filter-select {
+    margin-left: 10px;
+  }
+  

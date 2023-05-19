@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(https://forms.office.com/cdn/images/theme/office2.png);
+  background-attachment: fixed;
 }
 
 code {
